@@ -8,10 +8,12 @@
     </head>
     <body>
         <p>GETメソッド</p>
-        <form method="get" action="URL">
-        <li><label>第一引数：<input type name="first"></label></li>
+
+        <form method="get" action="https://www.amazon.co.jp/">
+        <li><label>第一引数：<input type="text" name="first"></label></li>
         <li><label>第二引数：<input type="text" name="second"></label></li>
         <li><input type="submit" value="送信"></label></li>
         </form>
+
     </body>
 </html>

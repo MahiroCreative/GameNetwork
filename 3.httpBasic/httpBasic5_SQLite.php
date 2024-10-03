@@ -19,7 +19,7 @@ $que .= ' Ranking(rank integer primary key,name text,score integer)';
 $db->query($que);
 
 /*データの挿入*/
-$db->query("INSERT OR REPLACE INTO Ranking VALUES (1,'Taniguchi',80)");
+$db->query("INSERT OR REPLACE INTO Ranking VALUES (1,'Yoshiyama',80)");
 $db->query("INSERT OR REPLACE INTO Ranking VALUES (2,'Furukawa',98)");
 $db->query("INSERT OR REPLACE INTO Ranking VALUES (3,'Izumi',48)");
 

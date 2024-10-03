@@ -54,7 +54,7 @@ if(isset($_POST["userID"]) && $backPage ==="Login")//ログイン接続
     $userPass = $_POST["userPass"];
     //正しいユーザIDとパスの取得(本来はデータベースから取り出す)
     $userData["ID"] = "user2023";
-    $userData["pass"] = "pass2023";
+    $userData["pass"] = "user2023";
     //ログインが成立すればログインフラグ立てる。
     if($userID === $userData["ID"] && $userPass === $userData["pass"])
     {
