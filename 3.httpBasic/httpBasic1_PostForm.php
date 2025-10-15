@@ -8,7 +8,7 @@
     </head>
     <body>
         <p>POSTメソッド</p>
-        <form method="post" action="https://www.amazon.co.jp/">
+        <form method="post" action="http://localhost/httpBasic4_XSS.php">
         <li><label>第一引数：<input type="text" name="first"></label></li>
         <li><label>第二引数：<input type="text" name="second"></label></li>
         <li><input type="submit" value="送信"></label></li>

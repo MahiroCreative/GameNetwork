@@ -35,8 +35,8 @@ var_dump(implode($arr3));
 /*配列をソートする*/
 echo "/*配列をソートする*/" . PHP_EOL;
 $arr4 = [1, 2, 3, 4, 5];
-$arr5 = sort($arr4); //降順
-$arr6 = rsort($arr4); //昇順
+$arr5 = sort($arr4);//昇順 
+$arr6 = rsort($arr4); //降順
 $arr7 = shuffle($arr4); //シャッフル
 $arr8 = array_reverse($arr4); //逆順にする
 //出力
